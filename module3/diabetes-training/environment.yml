@@ -1,0 +1,13 @@
+# Environment 
+name: simple_environment
+dependencies:
+    # The python interpreter version
+- python=3.6.2
+- sckit-learn
+- pandas
+- pip
+- pip:
+    - azureml-defaults
+    - azureml-mlflow
+
+
