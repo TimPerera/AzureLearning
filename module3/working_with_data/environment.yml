@@ -1,0 +1,9 @@
+name: simple_environment
+dependencies:
+- python=3.6.2
+- scikit-learn
+- pandas
+- pip
+- pip:
+  - azureml-defaults
+  - azureml-mlflow
